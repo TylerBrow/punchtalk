@@ -1,3 +1,39 @@
 .chatbox li{
     list-style: none;
 }
+.room {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    
+}
+.channellist {
+    width: 25%;
+    background-color: green;
+}
+.chat-input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: gray;
+}
+.chatarea {
+    height: 95%;
+    background-color: yellow;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.input {
+    display: flex;
+    justify-content: center;
+}
+.inputarea input {
+    width: 80%;
+    
+}
+.userlist {
+    width: 25%;
+    background-color: red;
+}
